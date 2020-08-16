@@ -1,0 +1,28 @@
+{
+  "name": "n-gram-counter",
+  "version": "0.0.0",
+  "description": "Count N-Grams in a String or Array",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mak4Lab/n-gram-counter.git"
+  },
+  "keywords": [
+    "counter",
+    "n-gram",
+    "nlp",
+    "tokens"
+  ],
+  "author": "Daniel J. Dufour & Victoria Mak",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Mak4Lab/n-gram-counter/issues"
+  },
+  "homepage": "https://github.com/Mak4Lab/n-gram-counter#readme",
+  "devDependencies": {
+    "ava": "^3.11.1"
+  }
+}
