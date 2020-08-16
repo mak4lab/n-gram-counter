@@ -16,25 +16,19 @@ const count = require('n-gram-counter');
 const n = 2; // pairs
 
 // an array of one 1, two 2's, three 3's, four 4's, and five 5's
-const nums = [
-    1,
-    2, 2,
-    3, 3, 3,
-    4, 4, 4, 4,
-    5, 5, 5, 5, 5
-];
+const nums = [ 0, 0, 0, 71, 85, 91, 93, 1000, 1000 ];
 
 const counts = count({ data: nums, n });
 /*
+counts is like [ [ pair, count ], [ pair, count ], ... ]
 [
-  [ [ 5, 5 ], 4 ],
-  [ [ 4, 4 ], 3 ],
-  [ [ 3, 3 ], 2 ],
-  [ [ 1, 2 ], 1 ],
-  [ [ 2, 2 ], 1 ],
-  [ [ 2, 3 ], 1 ],
-  [ [ 3, 4 ], 1 ],
-  [ [ 4, 5 ], 1 ]
+  [ [ 0, 0 ], 2 ],
+  [ [ 0, 71 ], 1 ],
+  [ [ 71, 85 ], 1 ],
+  [ [ 85, 91 ], 1 ],
+  [ [ 91, 93 ], 1 ],
+  [ [ 93, 1000 ], 1 ],
+  [ [ 1000, 1000 ], 1 ]
 ]
 */
 ```
